@@ -11,12 +11,16 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdow           n.rstudio.com>.
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
 ```{r cars}
 summary(cars)
+```
+
+```{r helloAayush, echo=FALSE}
+print("Hello world BY Aayush")
 ```
 
 ## Including Plots
@@ -28,3 +32,17 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+#Cheatsheet
+
+1. Plain text can be typed directly with #header being the highest level header in SIZE. Now Ending a line with 2 space takes us to **New paragrah**.  
+2. To bold a word use ** or __ like **bold**, same as __bold__.
+3. To italicize a word use * or _ like *italics* same as _italics_.
+4. Superscripting can be done by using ^64^
+5. To **Strikethrough** use ~ , for example ~~veg~~.
+6. Hperlink i.e. to add a link use [link] for instance to addd a link to  [My Linkedin.](www.linkedin.com/in/aayush28/)
+7. # Header 1   ## Header 2   ### Header 3   #### Header 4   ##### Header 5   ###### Header 6   
+8. endash: --   
+9. emdash: ---   
+10. ellipsis: ...   
+11. inline equation: $A = \pi*r^{2}$  
